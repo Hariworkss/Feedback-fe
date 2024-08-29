@@ -4,7 +4,7 @@ function Header() {
     <>
       <section className="bg-[#eeeff0] pt-[80px] pb-[120px]">
         <div className="w-full flex justify-center">
-        <div className="w-[30%] flex justify-between">
+        <div className="w-[30%] flex justify-center">
         <img className='rounded-[10px] w-[200px] ms-2 ' src="/chambers.png" alt="" />
         <img className='rounded-[10px] w-[200px] ms-2 ' src="/dsig.png" alt="" />
 

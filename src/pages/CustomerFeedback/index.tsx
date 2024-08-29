@@ -379,7 +379,7 @@ const CustomerFeedback: React.FC = () => {
                         onChange={(e) => setFormData({ ...formData, recommendationLikelihood: e.target.value })}
                     />
                 </div>
-                <div className="mt-8">
+                <div className="mt-8 max-md:justify-center max-md:flex">
                     <button
                         onClick={handleSubmit}
                         className="bg-blue-950 text-white px-4 py-2 rounded hover:bg-blue-800 transition duration-300"
@@ -391,13 +391,13 @@ const CustomerFeedback: React.FC = () => {
 
             </div>
             <div className=' w-full bg-slate-100 pb-[20px]'>
-            <div className=" md:flex justify-between px-[50px] py-4">
-        <img className='rounded-[10px] w-[180px] h-[80px] ms-2 ' src="/cisi.png" alt="" />
-        <img className='rounded-[10px] w-[190px] h-[70px]  ' src="/pepper.png" alt="" />
-        <img className='rounded-[10px] w-[120px] h-[80px] ms-2 ' src="/seehold.png" alt="" />
+            <div className="w-full md:flex max-md:justify-center justify-between px-[50px] py-4">
+        <img className='rounded-[10px] w-[180px] h-[80px] ms-2 mt-4' src="/cisi.png" alt="" />
+        <img className='rounded-[10px] w-[190px] h-[70px]  mt-6' src="/pepper.png" alt="" />
+        <img className='rounded-[10px] w-[120px] h-[80px] ms-2 mt-6' src="/seehold.png" alt="" />
         </div>
-        <div className='flex justify-end w-full pe-4'>
-            <a href="https://www.bzanalytics.ai/"><h3 className='ms-[80px]'>Powered by bzanalytics.ai</h3></a>
+        <div className='flex mt-3 max-md:justify-center justify-end w-full pe-4'>
+            <a href="https://www.bzanalytics.ai/"><h3 className='md:ms-[80px] '>Powered by bzanalytics.ai</h3></a>
         </div>
 
 </div>
