@@ -18,7 +18,7 @@ function Header() {
               <h1 className="text-4xl font-bold leading-tight md:text-4xl text-center text-[#0c0c31]">AI FOR ALL <br />EMPOWERING RESPONSIBLE INVESTMENTS
               </h1>
               <p className="mt-[20px] mb-[-30px] text-xl text-muted-foreground text-center">
-              THURSDAY, 29TH AUGUST 2024 I 9 A.M. - 1 P.M.              </p>
+              THURSDAY, 29TH AUGUST 2024 <br /> 9 A.M. - 1 P.M.              </p>
               <p className="mt-[30px] mb-[-30px] text-[19px] text-muted-foreground text-center">13th floor, Conference Room - Dubai Chambers, Baniyas Road, Port Saeed; Dubai</p>
             </div>
             {/* <div className="flex items-center justify-center">
